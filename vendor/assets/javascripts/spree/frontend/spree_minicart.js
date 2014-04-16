@@ -43,12 +43,12 @@
       e.preventDefault();
     });
 
-    $(document).on("ajax:beforeSend", "form[data-remote]", function(){
-      $("#progress").slideDown();
-    })
+    // $(document).on("ajax:beforeSend", "form[data-remote]", function(){
+    //   $("#progress").slideDown();
+    // })
 
-    $(document).on("ajax:complete", "form[data-remote]", function(){
-      $("#progress").slideUp();
-    })
+    // $(document).on("ajax:complete", "form[data-remote]", function(){
+    //   $("#progress").slideUp();
+    // })
   });
 })(jQuery);
